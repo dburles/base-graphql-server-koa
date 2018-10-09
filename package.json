@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "test": "npm run test:eslint && npm run test:prettier",
+    "test:eslint": "eslint . --ext mjs,js",
+    "test:prettier": "prettier '**/*.{json,yml,md}' -l",
+    "start": "node --experimental-modules --no-warnings -r dotenv/config src",
+    "watch": "nodemon"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-env": "^1.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "nodemon": "^1.18.4",
+    "prettier": "^1.14.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "env"
+    ],
+    "rules": {
+      "require-jsdoc": 0
+    }
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "graphql": "^14.0.2",
+    "graphql-api-koa": "^1.1.0",
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1"
+  }
+}
