@@ -10,14 +10,14 @@
     "node": "10"
   },
   "devDependencies": {
-    "eslint": "^5.6.1",
-    "eslint-config-env": "^1.1.0",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-prettier": "^3.0.0",
-    "nodemon": "^1.18.4",
-    "prettier": "^1.14.3"
+    "eslint": "^5.13.0",
+    "eslint-config-env": "^2.0.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4"
   },
   "eslintConfig": {
     "extends": [
@@ -31,10 +31,10 @@
     "singleQuote": true
   },
   "dependencies": {
-    "dotenv": "^6.0.0",
-    "graphql": "^14.0.2",
-    "graphql-api-koa": "^1.1.0",
-    "koa": "^2.5.3",
+    "dotenv": "^6.2.0",
+    "graphql": "^14.1.1",
+    "graphql-api-koa": "^2.0.0",
+    "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1"
   }
 }
